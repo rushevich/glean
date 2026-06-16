@@ -11,6 +11,7 @@ class document {
     int          _page_count = 0;
 
   public:
+    document() = default;
     document(context& ctx, char const* filename);
 
     ~document();
